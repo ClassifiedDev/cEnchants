@@ -1,0 +1,200 @@
+################################################################################
+##################### Classified Enchants by ClassifiedDev #####################
+############################# Version: U2.1.0-beta #############################
+################################################################################
+
+prefix: '&b&lClassified Enchants &8» '
+tinkererTitle: '&8Tinkerer'
+enchantAdminTitle: '&8Enchant Admin'
+
+enchanterMenu:
+   title: '&8Enchanter'
+   size: 27
+   spacer:
+       material: 'STAINED_GLASS_PANE'
+       data: 0
+       name: '&8[Classified Enchants]'
+       glowing: false
+
+   tier1Book:
+       material: 'BOOK'
+       data: 0
+       name: '&9&lBuy &7» &f&lCommon Enchantment Book'
+       lore:
+          - '&7Click to purchase a &fCommon &7Enchantment Book.'
+          - ' '
+          - '&9&lPRICE: &72,500 XP'
+       glowing: false
+       price: 2500
+       inventorySlot: 10
+
+   tier2Book:
+       material: 'BOOK'
+       data: 0
+       name: '&9&lBuy &7» &a&lUncommon Enchantment Book'
+       lore:
+          - '&7Click to purchase a &aUncommon &7Enchantment Book.'
+          - ' '
+          - '&9&lPRICE: &75,000 XP'
+       glowing: false
+       price: 5000
+       inventorySlot: 12
+
+   tier3Book:
+       material: 'BOOK'
+       data: 0
+       name: '&9&lBuy &7» &b&lRare Enchantment Book'
+       lore:
+          - '&7Click to purchase a &bRare &7Enchantment Book.'
+          - ' '
+          - '&9&lPRICE: &710,000 XP'
+       glowing: false
+       price: 10000
+       inventorySlot: 14
+
+   tier4Book:
+       material: 'BOOK'
+       data: 0
+       name: '&9&lBuy &7» &e&lLegendary Enchantment Book'
+       lore:
+          - '&7Click to purchase a &eLegendary &7Enchantment Book.'
+          - ' '
+          - '&9&lPRICE: &725,000 XP'
+       glowing: false
+       price: 25000
+       inventorySlot: 16
+
+enchantsMenu:
+   title: '&8Enchants'
+   size: 9
+   tier1MenuTitle: '&8Classified Enchants (Common)'
+   tier2MenuTitle: '&8Classified Enchants (Uncommon)'
+   tier3MenuTitle: '&8Classified Enchants (Rare)'
+   tier4MenuTitle: '&8Classified Enchants (Legendary)'
+   tier5MenuTitle: '&8Classified Enchants (Ultimate)'
+   tier1Book:
+      material: 'BOOK'
+      data: 0
+      name: '&f&lCommon Enchantment Books'
+      lore:
+         - '&7Click to view a menu of all'
+         - '&7of the &fCommon &7enchant orbs.'
+      glowing: false
+      inventorySlot: 2
+
+   tier2Book:
+      material: 'BOOK'
+      data: 0
+      name: '&a&lUncommon Enchantment Books'
+      lore:
+         - '&7Click to view a menu of all'
+         - '&7of the &aUncommon &7enchant orbs.'
+      glowing: false
+      inventorySlot: 3
+
+   tier3Book:
+      material: 'BOOK'
+      data: 0
+      name: '&b&lRare Enchantment Books'
+      lore:
+         - '&7Click to view a menu of all'
+         - '&7of the &lRare &7enchant orbs.'
+      glowing: false
+      inventorySlot: 4
+
+   tier4Book:
+      material: 'BOOK'
+      data: 0
+      name: '&e&lLegendary Enchantment Books'
+      lore:
+         - '&7Click to view a menu of all'
+         - '&7of the &eLegendary &7enchant orbs.'
+      glowing: false
+      inventorySlot: 5
+
+   tier5Book:
+      material: 'BOOK'
+      data: 0
+      name: '&c&lUltimate Enchantment Books'
+      lore:
+         - '&7Click to view a menu of all'
+         - '&7of the &cUltimate &7enchant orbs.'
+      glowing: false
+      inventorySlot: 6
+
+
+enchantmentBookMaterial: 'BOOK'
+enchantmentBookData: 0
+enchantmentBookGlowing: false
+tier1Book:
+   name: '&f&lCommon Enchantment Book &7(Right-Click)'
+   lore:
+      - '&7Right click to reveal a random'
+      - '&fcommon &7enchantment book.'
+   color: '&f'
+
+tier2Book:
+   name: '&a&lUncommon Enchantment Book &7(Right-Click)'
+   lore:
+      - '&7Right click to reveal a random'
+      - '&auncommon &7enchantment book.'
+   color: '&a'
+tier3Book:
+
+   name: '&b&lRare Enchantment Book &7(Right-Click)'
+   lore:
+      - '&7Right click to reveal a random'
+      - '&brare &7enchantment book.'
+   color: '&b'
+tier4Book:
+
+   name: '&e&lLegendary Enchantment Book &7(Right-Click)'
+   lore:
+      - '&7Right click to reveal a random'
+      - '&elegendary &7enchantment book.'
+   color: '&e'
+
+tier5Book:
+   name: '&c&lUltimate Enchantment Book &7(Right-Click)'
+   lore:
+      - '&7Right click to reveal a random'
+      - '&cultimate &7enchantment book.'
+   color: '&c'
+
+protectionScroll:
+   material: 'FEATHER'
+   data: 0
+   name: '&f&lProtection Scroll'
+   lore:
+      - '&7Apply this protection scroll to your'
+      - '&7gear to protect it from being destroyed'
+      - '&7by a failed enchantment orb.'
+      - ' '
+      - '&7&oDrag n drop to item to apply.'
+   glowing: true
+   protectedLore: '&f&lPROTECTED'
+
+organizationScroll:
+   material: 'PAPER'
+   data: 0
+   name: '&9&lOrganization Scroll'
+   lore:
+      - '&7Apply this scroll to your gear to'
+      - '&7order the enchantments by tier.'
+      - ''
+      - '&7&oDrag n drop onto item to apply.'
+   glowing: false
+
+renameScroll:
+   material: 'NAME_TAG'
+   data: 0
+   name: '&e&lRename Scroll &7(Right-Click)'
+   lore:
+      - '&7Use this scroll to rename your gear.'
+   glowing: false
+
+removalScroll:
+   material: 'INK_SACK'
+   data: 0
+   name: '&8&lRemoval Scroll'
+   glowing: false

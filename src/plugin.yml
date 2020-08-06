@@ -1,0 +1,21 @@
+main: me.classified.enchants.cEnchants
+version: U2.1.0-beta
+name: cEnchants
+author: ClassifiedDev
+depend: [ArmorEquipEvent, Factions, mcMMO, Vault, WorldEdit, WorldGuard]
+commands:
+   enchanter:
+     aliases: [ce] 
+   tinkerer:
+   giveenchant:
+     aliases: [givece]  
+   giveenchantitem:
+     aliases: [givecei]
+   enchants:
+   enchantadmin:
+     aliases: [ceadmin]
+permissions:
+   classifiedenchants.give:
+       default: op
+        
+             
